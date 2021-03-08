@@ -1,4 +1,9 @@
 public class QuadraticSort {
+    /**
+     * sorts array with insertion sort method
+     * @param arr the array to be sorted
+     * @return the sorted array
+     */
     public static double[] QuadraticSort(double[] arr, int left, int right) {
         for (int i = left+1; i < right; i++) {
             double temp = arr[i];
